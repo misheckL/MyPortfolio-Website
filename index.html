@@ -3,20 +3,212 @@
     <head>
         <title>Home</title>
         <style>
-            .a href {
-                
+            body {
+                margin: 0px;
+            }
+            .misheck {
+                display: flex;
+                flex-direction: row;
+            }
+            .misheck .side-nav {
+                width: 250px;
+                height: 100%;
+            }
+            .misheck .side-nav .nav .menu{
+                list-style-type: none;
+                padding-left: 10px;
+            }
+            .misheck .side-nav .nav .menu li{
+                color: #00c8c8;
+                padding: 10px 10px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                border-radius: 25px;
+                cursor: pointer;
+                margin-bottom: 5px;
+            }
+            .misheck .side-nav .nav .menu li:hover{
+                background-color: #605494;
+                color: white;
+            }
+            .misheck .side-nav .nav .menu .menu-icon {
+                width: 25px;
+                margin-right: 10px;
+            }   
+            .misheck .side-nav .nav .menu .menu-active {
+                color: white
+                background-color: blue
+            }
+            .nav .menu li {
+                position: sticky;
+                align-items: flex-end;
+                background-color: rgb(152, 168, 152);
+                top: 30px;
+                list-style: none;
+                padding-left: 0px;
+                display: inline-block;
+                justify-content: flex-end;
+                color: rgb(65, 46, 46);
+                padding-bottom: 1rem;
+                padding-top: 1rem;
+                padding-right: 2rem;
+                font-size: x-large;
+                z-index: 10;
+            }
+            .nav .menu> li {
+                margin-left: 10px;
+            }
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: "Josefin San", sans-serif;
+                box-sizing: border-box;
+            }
+            .heya {
+                height: 100vh;
+                width: 100%;
+                background-image: url(../mest_html/images/Mishback.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 45px;
+                padding-left: 8%;
+                padding-right: 8%;
+            }
+            .logo {
+                color: white;
+                font-size: 40px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                border-radius: 20px;
+            }
+            span {
+                color: red;
+            }
+            nav ul li {
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px 25px;
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+            nav ul li a:hover {
+                color: red;
+                transition: 0.01s;
+                transform: scale(1.1);        
+            }
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 8%;
+                transform: translateY(-50%);
+            }
+            h1 {
+                color: white;
+                margin: 25px 0px 20px;
+                font-size: 50px;
+            }
+            h3 {
+                color: white;
+                font-size: 25px;
+                margin-bottom: 50px;
+            }
+            h4 {
+                color: #fcfcfc;
+                letter-spacing: 1.5px;
+                font-size: 25px;
+            }
+            .about {
+                width: 100%;
+                padding: 100px 0px;
+                background-color: #191919;
+            }
+            .about img {
+                height: auto;
+                width: 430px;
+            }
+            .about-text {
+                width: 550px;
+            }
+            .main {
+                width: 1130px;
+                max-width: 95%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .about-text h2 {
+                color: white;
+                font-size: 80px;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+            .about-text h5 {
+                color: white;
+                letter-spacing: 1.5px;
+                font-size: 25px;
+                margin-bottom: 27px;
+                text-transform: capitalize;
+            }
+            .about-text p {
+                color: #fcfcfc;
+                letter-spacing: 0.8px;
+                line-height: 28px;
+                font-size: 20px;
+                margin-bottom: 50px;
             }
         </style>
     </head>
     <body>
-        <h1>Welcome</h1>
-        <p>
-            Hi there, my name is Misheck Lukhama. Welcome to my website. Want to know more about me? Click below
-        </p>
-        <img src="C:\Users\HP\Documents\BUSINESS\MILUTECH SOLUTIONS ENTERPRISE\MEST Training\Misheck.JPG" width="150px;" height="200px"/><br>
-        <a href="About.html">About Me</a>
-        <a href="portifolio.html">My Portifolio (Projects)</a>
-        <a href="skills.html">Skills</a>
-        <a href="Contact.html">Contact Me</a>
+        <!----hero Section Section start---->
+        <div class="heya">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul class="menu">
+                    <li class="menu-active"><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Me</a></li> 
+                    <li><a href="portfolio.html">My Portifolio (Projects)</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </u>
+            </nav>
+            <div class="content">
+              <h4>Hi there, my name is</h4>
+              <h1>Msheck <span>Lukhama</span></h1>
+               <h3>I am a Tech Enthusiast, Educator, and Entrepreneur </h3> 
+            </div>  
+        </div>
+        <!----About Section--->
+        <section class="about">
+            <div class="main">
+                <img src="images/Misheck Lukhama.JPG" alt="" width="250" height="350">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>A Tech Enthusiast, Educator, and Entrepreneur</h5>
+                    <p>I am a passionate tech enthusiast, educator, and entrepreneur driven by the potential of technology to innovate and enhance lives. With a solid educational background and experience in teaching, my goal is to instill critical thinking and a love for learning. As an entrepreneur, I strive to bridge technology with everyday needs, creating impactful solutions. I am driven by the belief that a blend of knowledge, innovation, and vision can shape a brighter, tech-driven tomorrow. 
+                        Thus, my vision is a future where technology seamlessly integrates with education, research, and business to drive progress and make a lasting impact.</p>
+                </div>
+            </div>
+        </section>
+        <!--Portfolio Section Start-->
+        <div class="Portfolio">
+            <div class="title">
+                <h2>My Portfolio/ Projects</h2>
+            </div>
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5></h5>
+            </div>
+        </div>    
     </body>
 </html>
