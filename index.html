@@ -136,6 +136,7 @@
             .about img {
                 height: auto;
                 width: 430px;
+                border-radius: 5000px;
             }
             .about-text {
                 width: 550px;
@@ -168,7 +169,7 @@
                 font-size: 20px;
                 margin-bottom: 50px;
             }
-            .Portfolio {
+            .skills {
                 background: #101010;
                 width: 100%;
                 padding: 100px 0px;
@@ -197,12 +198,73 @@
                 overflow: hidden;
                 text-align: center;
             }
-            .Card i {
+            .card i {
                 font-size: 50px;
                 display: block;
                 text-align: center;
                 margin: 25px 0px;
                 color: #f9004d;
+            }
+            h5 {
+                color: white;
+                font-size: 23px;
+                margin-bottom: 15px;
+                justify-content: space-between;
+            }
+            .txt p{
+                color: #fcfcfc;
+                font-size: 16px;
+                line-height: 27px;
+                margin-bottom: 25px;
+
+            }
+            footer {
+                position: relative;
+                width: 100%;
+                height: 400px;
+                background: gray;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            footer p:nth-child(1) {
+                color: white;
+                margin-bottom: 20px;
+                font-weight: bolder;
+            }
+            footer p:nth-child(2) {
+                color: white;
+                font-size: 17px;
+                width: 500px;
+                text-align: center;
+                line-height: 25px;
+            }
+            .social {
+                display: flex;
+            }
+            .social a {
+                width: 45px;
+                height: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #f9004d;
+                border-radius: 50px;
+                margin: 22px 10px;
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .social a:hover {
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+            .end {
+                position: absolute;
+                color: #fcfcfc;
+                bottom: 40px;
+                font-size: 14px;
             }
         </style>
     </head>
@@ -237,18 +299,26 @@
                 </div>
             </div>
         </section>
-        <!--Portfolio Section Start-->
-        <div class="Portfolio">
+        <!--Skills Section Start-->
+        <div class="skills">
             <div class="title">
-                <h2>My Portfolio/ Projects</h2>
+                <h2>My Skills</h2>
             </div>
             <div class="box">
                 <div class="card">
-                    <i class="fas fa-bars"></i>
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <h5>Educator/ Trainer</h5>
+                    <div class="txt">
+                        <p style="text-align: center;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-person-chalkboard"></i>
                     <h5>Educator and Trainer</h5>
-                    <div>
-                        <p>With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
-                        <p style="text-align: center;">
+                    <div class="txt">
+                        <p style="text-align: center;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
                         </p>
                     </div>
                 </div>
@@ -256,23 +326,27 @@
                 <div class="card">
                     <i class="fas fa-bars"></i>
                     <h5>Educator and Trainer</h5>
-                    <div>
-                        <p>With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
-                        <p style="text-align: center;">
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="fas fa-bars"></i>
-                    <h5>Educator and Trainer</h5>
-                    <div>
-                        <p>With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
-                        <p style="text-align: center;">
+                    <div class="txt">
+                        <p style="text-align: center;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
                         </p>
                     </div>
                 </div>
             </div>    
-        </div>    
+        </div>
+
+        <!-----Contact Section----->
+        <footer>
+            <h2>My Contact</h2>
+            <p>Do you want to get in touch with me? Please, click on the links below:</p>
+            <div class="social">
+                    <a href="misheck.lukhama@meltwater.org"><i class="fa-solid fa-envelope"></i></a>
+                    <a href=" https://www.linkedin.com/in/misheck-lukhama/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/manmuke.3240"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/misheck_m_lukhama/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/MLukhama"><i class="fa-brands fa-x-twitter"></i></a>
+                </ul>
+            </div>
+            <p class="end">CopyRight &COPY; Misheck Lukhama 2023</p>
+        </footer>
     </body>
 </html>
