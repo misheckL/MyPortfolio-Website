@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../mest_html/fontawesome-free-6.4.2-web/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <title>Home</title>
         <style>
             body {
@@ -69,7 +69,7 @@
             .heya {
                 height: 100vh;
                 width: 100%;
-                background-image: url(../mest_html/images/Mishback.jpg);
+                background-image: url(./images/Mishback.jpg);
                 background-size: cover;
                 background-position: center;
             }
@@ -158,7 +158,7 @@
                 margin-bottom: 20px;
             }
             .about-text h5 {
-                color: white;
+                color: lightblue;
                 letter-spacing: 1.5px;
                 font-size: 25px;
                 margin-bottom: 27px;
@@ -170,6 +170,28 @@
                 line-height: 28px;
                 font-size: 20px;
                 margin-bottom: 50px;
+            }
+            #portfolio {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .project {
+                width: 300px;
+                margin: 10px;
+            }
+
+            .project img {
+                width: 100%;
+                height: auto;
+            }
+
+            .project h3 {
+                 margin-top: 10px;
+            }
+
+            .project p {
+                margin-top: 5px;
             }
             .skills {
                 background: #101010;
@@ -215,9 +237,9 @@
             }
             .txt p{
                 color: #fcfcfc;
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 27px;
-                margin-bottom: 25px;
+                margin-bottom: 15px;
 
             }
             footer {
@@ -277,7 +299,7 @@
                 <h2 class="logo">Portfo<span>lio</span></h2>
                 <ul class="menu">
                     <li class="menu-active"><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About Me</a></li> 
+                    <li><a href="#abt">About Me</a></li> 
                     <li><a href="portfolio.html">My Portifolio (Projects)</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="Contact.html">Contact Me</a></li>
@@ -290,17 +312,39 @@
             </div>  
         </div>
         <!----About Section--->
-        <section class="about">
+        <section class="about" id="abt">
             <div class="main">
                 <img src="images/Misheck Lukhama.JPG" alt="" width="250" height="350">
                 <div class="about-text">
-                    <h2>About Me</h2>
+                    <h3>About Me</h3>
                     <h5>A Tech Enthusiast, Educator, and Entrepreneur</h5>
                     <p>I am a passionate tech enthusiast, educator, and entrepreneur driven by the potential of technology to innovate and enhance lives. With a solid educational background and experience in teaching, my goal is to instill critical thinking and a love for learning. As an entrepreneur, I strive to bridge technology with everyday needs, creating impactful solutions. I am driven by the belief that a blend of knowledge, innovation, and vision can shape a brighter, tech-driven tomorrow. 
                         Thus, my vision is a future where technology seamlessly integrates with education, research, and business to drive progress and make a lasting impact.</p>
                 </div>
             </div>
         </section>
+
+        <section id="portfolio">
+            <h3>My Projects</h3>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A short description of project 1.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A short description of project 2.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 3</h3>
+                <p>A short description of project 3.</p>
+            </div>
+
+            <!-- Add more project divs as needed -->
+        </section>
+
         <!--Skills Section Start-->
         <div class="skills">
             <div class="title">
@@ -318,7 +362,7 @@
 
                 <div class="card">
                     <i class="fa-solid fa-person-chalkboard"></i>
-                    <h5>Educator and Trainer</h5>
+                    <h5>Entrepreneur</h5>
                     <div class="txt">
                         <p style="text-align: center;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
                         </p>
@@ -327,9 +371,9 @@
 
                 <div class="card">
                     <i class="fas fa-bars"></i>
-                    <h5>Educator and Trainer</h5>
+                    <h5>A Tech Advocate</h5>
                     <div class="txt">
-                        <p style="text-align: center;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
+                        <p style="text-align: center;">I am passionate about tech. I am futuristic that tech innovation knows no bounds, and the future is shaped by our unwavering enthusiasm for all things tech! Join me in this journey of advocating for a technology-powered world that prioritizes ethics, inclusivity, and positive impact. Together, we can harness the potential of technology to build a better and more equitable future for all.
                         </p>
                     </div>
                 </div>
@@ -348,7 +392,7 @@
                     <a href="https://twitter.com/MLukhama"><i class="fa-brands fa-x-twitter"></i></a>
                 </ul>
             </div>
-            <p class="end">CopyRight &COPY; Misheck Lukhama 2023</p>
+            <p class="end">Misheck Lukhama &COPY; 2023</p>
         </footer>
     </body>
 </html>
