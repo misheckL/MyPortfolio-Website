@@ -1,0 +1,224 @@
+.heya {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Mishback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+span {
+    color: red;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: red;
+    transition: 0.01s;
+    transform: scale(1.1);        
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1 {
+    color: white;
+    margin: 25px 0px 20px;
+    font-size: 50px;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: #fcfcfc;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img {
+    height: auto;
+    width: 430px;
+    border-radius: 5000px;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h3 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: lightblue;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    margin-bottom: 27px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: #fcfcfc;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 300px;
+    margin: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+     margin-top: 10px;
+}
+
+.project p {
+    margin-top: 5px;
+}
+.skills {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2 {
+    color: white;
+    font-size: 80px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 410px;
+}
+.card {
+    height: 365px;
+    width: 335;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.txt p{
+    color: #fcfcfc;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 15px;
+
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1) {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 25px;
+}
+.social {
+    display: flex;
+}
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50px;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.end {
+    position: absolute;
+    color: #fcfcfc;
+    bottom: 40px;
+    font-size: 14px;
+}
