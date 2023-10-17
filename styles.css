@@ -1,7 +1,7 @@
 .heya {
     height: 100vh;
     width: 100%;
-    background-image: url(./images/Mishback.jpg);
+    background-image: url(./images/NewBackgroundL.png);
     background-size: cover;
     background-position: center;
 }
@@ -31,15 +31,28 @@ nav ul li {
 
 }
 nav ul li a {
-    color: white;
+    color: rgb(26, 24, 24);
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
     text-transform: capitalize;
 }
 nav ul li a:hover {
-    color: red;
+    color: white;
     transition: 0.01s;
-    transform: scale(1.1);        
+    transform: scale(1.1);
+    font-weight: 400px;
+    font-size: ;        
+}
+.container {
+    flex-wrap: wrap-reverse;
+    display: flex;
+    flex-direction:inherit;
+    width: 100%;
+}
+.card {
+    width: 55.5%;
+    height: 109vh;
 }
 .content {
     position: absolute;
@@ -65,7 +78,7 @@ h4 {
 .about {
     width: 100%;
     padding: 100px 0px;
-    background-color: #191919;
+    background-color: #220303;
 }
 .about img {
     height: auto;
@@ -102,52 +115,69 @@ h4 {
     line-height: 28px;
     font-size: 20px;
     margin-bottom: 50px;
-}
+} 
 .portfolio {
     display: flex;
     flex-wrap: wrap;
 }
 
 .project {
-    width: 300px;
-    margin: 10px;
-}
-
-.project> img {
-    width: 100%;
-    height: auto;
-}
-
-.project h3 {
-     margin-top: 10px;
-}
-
-.project p {
-    margin-top: 5px;
-}
-.skills {
-    background: #101010;
-    width: 100%;
-    padding: 100px 0px;
-}
-.title h2 {
-    color: white;
-    font-size: 80px;
-    width: 1130px;
-    margin: 30px auto;
+    margin-bottom: 40px;
     text-align: center;
+}
+  
+.project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+  
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #555;
+  }
+.skills {
+    background: #333;
+    width: 100%;
+    padding: 90px 0px;
+}
+.title> h2 {
+    color: white;
+    font-size: 50px;
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 1vh;
 }
 .box {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    min-height: 410px;
+    min-height: 450px;
 }
 .card {
-    height: 365px;
+    height: 450px;
     width: 335;
-    padding: 20px 35px;
-    background: #191919;
+    padding: 20px 25px;
+    background: #161313;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -221,7 +251,6 @@ footer p:nth-child(2) {
     color: #fcfcfc;
     bottom: 40px;
     font-size: 14px;
-}
 }
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
