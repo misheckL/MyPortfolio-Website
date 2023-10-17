@@ -42,7 +42,7 @@ nav ul li a:hover {
     transition: 0.01s;
     transform: scale(1.1);
     font-weight: 400px;
-    font-size: ;        
+    font-size: 100;        
 }
 .container {
     flex-wrap: wrap-reverse;
