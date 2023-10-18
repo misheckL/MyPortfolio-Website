@@ -246,6 +246,40 @@ footer p:nth-child(2) {
     transform: scale(1.1);
     transition: 0.3s;
 }
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler:hover {
+    outline: none;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    padding: 0 10px;
+  }
+  
+  .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #555;
+  }
 .end {
     position: absolute;
     color: #fcfcfc;
