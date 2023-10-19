@@ -1,149 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Misheck Lukhama-Portfolio</title>
-</head>
-<body>
-        <!----hero Section Section start---->
-        <div class="heya">
-          <nav class="navbar navbar-expand-md">
-                <h2 class="logo">Portfo<span>lio</span></h2>
-                <ul class="menu">
-                    <li class="menu-active"><a href="index.html">Home</a></li>
-                    <li><a href="#abt">About Me</a></li> 
-                    <li><a href="#pft">My Portifolio (Projects)</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#Contact">Contact Me</a></li>
-                </u>
-            </nav>
-            <div class="container">
-                <div class="content">
-                        <h4>Hello there, my name is</h4>
-                        <h1>Misheck <span>Lukhama</span></h1>
-                        <h3>I am a Tech Enthusiast, Educator, and Entrepreneur </h3>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Misheck Lukhama - Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!---Fontawesome Icons--->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top"><h1>Portf<span>olio</span></h1></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-            </div>  
-        </div>
-
-        <!----About Section--->
-        <section class="about" id="abt">
-            <div class="main">
-                <img src="images/Misheck Lukhama.JPG" alt="" width="250" height="350">
-                <div class="about-text">
-                    <h3>About Me</h3>
-                    <h5>A Tech Enthusiast, Educator, and Entrepreneur</h5>
-                    <p>I am a passionate tech enthusiast, educator, and entrepreneur driven by the potential of technology to innovate and enhance lives. With a solid educational background and experience in teaching, my goal is to instill critical thinking and a love for learning. As an entrepreneur, I strive to bridge technology with everyday needs, creating impactful solutions. I am driven by the belief that a blend of knowledge, innovation, and vision can shape a brighter, tech-driven tomorrow. 
-                        Thus, my vision is a future where technology seamlessly integrates with education, research, and business to drive progress and make a lasting impact.</p>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Hello there, <br>My name is<br>Misheck Lukhama</h1>
+                        <hr class="divider"/>
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">I Talk about Empowering Education, Innovation, and Entrepreneurship</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About me</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">A Tech Enthusiast, Educator, and Entrepreneur</p>
+                        <p class="text-black-45 mb-4">I am a tech enthusiast, educator, and entrepreneur driven by the potential of technology to innovate and enhance lives. With a solid educational background and experience in teaching, my goal is to instill critical thinking and a love for learning. As an entrepreneur, I strive to bridge technology with everyday needs, creating impactful solutions. I am driven by the belief that a blend of knowledge, innovation, and vision can shape a brighter, tech-driven tomorrow. Thus, my vision is a future where technology seamlessly integrates with education, research, and business to drive progress and make a lasting impact.</p>
+                        <a class="btn btn-light btn-xl" href="#services">Click here to See my Skills!</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-----portfolio Section--->
-        <section>
-          <div class="Portfolio" id="pft">
-              <h2>Portfolio/ Projects</h2>
-              <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <b>2022 Census - Zambia</b>
-                      </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This was in Gwembe District working as a Zonal Census Coordinator</strong> <br>Administratively and technically managed Census enumaration a Zonal Census Coordinator during Zambia's first-ever e-Census of Population and Housing.
-                      </div>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">My Skills</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Teaching & Training</h3>
+                            <p class="text-muted mb-0">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.</p>
+                        </div>
                     </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <b>Youth 2 Work</b>
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>During the Youth 2 Work Programme.</strong> <br>My experience with the Youth to Work program by Challenges Zambia was nothing short of transformative. From the very first day, I could sense that this was more than just a program; it was a steppingstone to a brighter future.
-                        The program’s emphasis on personal growth helped me understand my strengths and weaknesses. The hands-on experience with real-world projects was priceless, teaching me the value of teamwork and adaptability. The sense of community within the program was extraordinary, providing a supportive network of like-minded individuals. Thanks to Youth to Work Programme, I feel confident and equipped to make a meaningful contribution in the professional world. I am grateful to Challenges Zambia for this incredible opportunity.
-                        .
-                      </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Project Management</h3>
+                            <p class="text-muted mb-0">With my project management skills, I am ready to take on new challenges, drive innovation, and deliver impactful results. Let's work together to turn your vision into a reality and achieve project success.</p>
+                        </div>
                     </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <b>Zambia's 2023 Boost up Training</b>
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>About Zambia's 2023 Boost up Training.</strong> <br>Participated in the Boost up Set up training sessions held over the last 2 weeks in Lusaka.
-                        The Boost up Set Up provides training to entreprepreneurs with practical tools to package their business idea and develop a pitch to attract their target market.
-                      </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Book Keeping Skills</h3>
+                            <p class="text-muted mb-0">With bookkeeping skills, I can help businesses maintain accurate financial records, track cash flow, and ensure compliance with tax regulations.</p>
+                        </div>
                     </div>
-                  </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Tech Skills</h3>
+                            <p class="text-muted mb-0">Upcoming Web Developer specialised in basics of <strong>WordPress, HTML and CSS</strong></p><br>
+                            <i class="fa-brands fa-wordpress fa-2xl"></i>
+                            <i class="fa-brands fa-html5 fa-2xl"></i>
+                            <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                        </div>
+                    </div>
                 </div>
-          </div>
-        </section>
-
-        <!--Skills Section Start-->
-        <section id="skills">
-          <div class="skills">
-            <div class="title">
-                <h2>My Skills</h2>
             </div>
-            <div class="box">
-                <div class="card">
-                    <i class="fa-solid fa-person-chalkboard"></i>
-                    <h5>Teaching/ Training</h5>
-                    <div class="txt">
-                        <p style="text-align: left;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="fa-solid fa-person-chalkboard"></i>
-                    <h5>Project Management</h5>
-                    <div class="txt">
-                        <p style="text-align: left;">With a strong foundation in education, I have honed my skills as an educator and trainer. My teaching philosophy revolves around cultivating critical thinking, fostering creativity, and instilling a lifelong love for learning in my students. I believe that education is the key to empowering individuals and shaping a better future.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="fas fa-bars"></i>
-                    <h5>A Tech Advocate</h5>
-                    <div class="txt">
-                        <p style="text-align: left;">I am passionate about tech. I am futuristic that tech innovation knows no bounds, and the future is shaped by our unwavering enthusiasm for all things tech! Join me in this journey of advocating for a technology-powered world that prioritizes ethics, inclusivity, and positive impact. Together, we can harness the potential of technology to build a better and more equitable future for all.
-                        </p>
-                    </div>
-                </div>
-            </div>    
-        </div>
         </section>
-        
-
-      <!-----Contact Section----->
-      <section id="Contact">
-        <footer>
-          <h3>My Contact</h3>
-          <p><b>Do you want to get in touch with me? Please, click on the links below:</b></p>
-          <div class="social">
-                  <a href="misheck.lukhama@meltwater.org"><i class="fa-solid fa-envelope"></i></a>
-                  <a href=" https://www.linkedin.com/in/misheck-lukhama/"><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="https://www.facebook.com/manmuke.3240"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="https://www.instagram.com/misheck_m_lukhama/"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="https://twitter.com/MLukhama"><i class="fa-brands fa-x-twitter"></i></a>
-              </ul>
-          </div>
-          <p class="end">Misheck Lukhama &COPY; 2023</p>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Project Management</div>
+                                <div class="project-name">2022 e-Census</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Business Support & Development</div>
+                                <div class="project-name">Youth to Work</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">View my Resume</h2>
+                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+260969779970</div>
+                        <div class="social">
+                            <a href="https://wa.me/message/VZB6YDWYUHOJD1"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="misheck.lukhama@meltwater.org"><i class="fa-solid fa-envelope"></i></a>
+                            <a href=" https://www.linkedin.com/in/misheck-lukhama/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/manmuke.3240"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/misheck_m_lukhama/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/MLukhama"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Misheck Lukhama &copy; 2023</div></div>
         </footer>
-      </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
